@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="styles.css">
     <title>Admin Panel</title>
     <style>
+    body {
+        background: #f8fafc;
+    }
       * {
     margin: 0;
     padding: 0;
@@ -271,9 +274,10 @@ td {
         </div>
         <div class="content">
             <h2>Welcome, {{ username }}!</h2>
-            <a href="/logout">Logout</a>
-            <div class="cards">
-                <div class="card">
+            <p style="color:#555; margin-bottom:10px;">You are viewing the admin dashboard panel.</p>
+            <a href="/logout" class="btn" style="float:right; margin-bottom:15px;">Logout</a>
+            <div class="cards" style="flex-direction: row; gap: 10px;">
+                <div class="card" style="flex: 1; min-width: 180px;">
                     <div class="box">
                         <h1>2000</h1>
                         <h3>Students</h3>
@@ -282,7 +286,7 @@ td {
                         <img src="students.png" alt="">
                     </div>
                 </div>
-                <div class="card">
+                <div class="card" style="flex: 1; min-width: 180px;">
                     <div class="box">
                         <h1>40</h1>
                         <h3>Teachers</h3>
@@ -291,7 +295,7 @@ td {
                         <img src="teachers.png" alt="">
                     </div>
                 </div>
-                <div class="card">
+                <div class="card" style="flex: 1; min-width: 180px;">
                     <div class="box">
                         <h1>5</h1>
                         <h3>Schools</h3>
@@ -300,7 +304,7 @@ td {
                         <img src="schools.png" alt="">
                     </div>
                 </div>
-                <div class="card">
+                <div class="card" style="flex: 1; min-width: 180px;">
                     <div class="box">
                         <h1>400000</h1>
                         <h3>Income</h3>
