@@ -53,7 +53,7 @@ Use Burp Suite's Sniper attack with the username payload list. Look for a unique
 1. Limit login attempts per IP and per account.
 2. Temporarily lock after N failures and notify the account owner.
 3. Require MFA (OTP, push, or hardware key)
-4. Use of strong passwords with alpha-numeric character.
+4. Use of strong passwords with alpha-numeric characters.
 
 
 ### Recommended Browsers
